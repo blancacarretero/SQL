@@ -1,1 +1,1 @@
-# sql-challenge
+# SQL Challenge: Employee Database :technologist:
