@@ -7,7 +7,7 @@ I will design the tables to hold data in the CSVs, import the CSVs into a SQL da
 ## Data Modeling
 Inspected the CSVs and sketched out an ERD of the tables
 
-<img src="https://github.com/blancacarretero/sql-challenge/blob/main/images/ERD.png?raw=true" width="600" title="hover text">
+<img src="https://github.com/blancacarretero/sql-challenge/blob/main/images/ERD.png?raw=true" width="500" title="employee ERD diagram">
 
 ## Data Engineering
 Using the information, created a table schema for each of the six CSV files. Specified data types, primary keys, foreign keys, and other constraints. 
@@ -143,3 +143,10 @@ SELECT last_name, COUNT(last_name) AS "frequency"
 FROM employees
 GROUP BY last_name
 ```
+
+## Data Visualizations (Bonus)
+Imported the SQL database into Pandas
+
+<img src="https://github.com/blancacarretero/sql-challenge/blob/main/images/most_common_salary_ranges_for_employees.png?raw=true">
+
+<img src="https://github.com/blancacarretero/sql-challenge/blob/main/images/average_salary_by_title.png?raw=true">
